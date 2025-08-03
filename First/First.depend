@@ -228,3 +228,8 @@
 	<windows.h>
 	<GL/glut.h>
 
+1754219644 source:c:\users\dcs\desktop\gscomp279\first\curve.cpp
+	<windows.h>
+	<GL/glut.h>
+	<cmath>
+

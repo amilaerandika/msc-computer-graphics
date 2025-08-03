@@ -23,16 +23,17 @@ void display() {
     glColor3f(0.0f, 1.0f, 0.0f); // RGB: Red, Green, Blue (values from 0.0 to 1.0)
 
     // Set the size of the point to be drawn
-    glPointSize(10.0f); // The point will be 10x10 pixels
+    glPointSize(1.0f); // The point will be 10x10 pixels
 
+    /*
     // Begin drawing points
     glBegin(GL_POINTS);
         // Define the coordinates of our point.
         // In our glOrtho setup (0,0,800,600), (400,300) is the center of an 800x600 window.
         glVertex2f(400.0f, 300.0f); // X = 400, Y = 300
     glEnd(); // End drawing points
+    */
 
-    /*
     for(int i = 0; i < 800; i = i + 5)
     {
         for(int j = 0; j < 600; j = j + 5)
@@ -42,7 +43,7 @@ void display() {
             glEnd();
         }
     }
-    */
+
     glFlush(); // Force all OpenGL commands to be executed and rendered to the screen
 }
 
